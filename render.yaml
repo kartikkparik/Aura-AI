@@ -1,0 +1,29 @@
+services:
+  # Backend Web Service
+  - type: web
+    name: aura-ai-backend
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn --chdir backend -c gunicorn_config.py app:app
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: "*"
+      - key: PYTHON_VERSION
+        value: 3.10.12
+
+  # Frontend Static Site
+  - type: web
+    name: aura-ai-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: aura-ai-backend
+          property: host

@@ -1,0 +1,614 @@
+{
+  "careers": {
+    "data_scientist": {
+      "title": "Data Scientist",
+      "description": "Data Scientists extract insights from large datasets using statistical analysis, machine learning, and data visualization to support business decision-making.",
+      "salary_range": {
+        "fresher": "4-8 LPA",
+        "mid": "8-20 LPA",
+        "senior": "20-50 LPA"
+      },
+      "required_skills": [
+        "Python", "Statistics & Probability", "Machine Learning", "Deep Learning",
+        "SQL", "Data Visualization", "Feature Engineering", "Model Deployment",
+        "A/B Testing", "EDA (Exploratory Data Analysis)"
+      ],
+      "tools_frameworks": [
+        "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Matplotlib",
+        "Seaborn", "Plotly", "Jupyter", "SQL", "Tableau", "Power BI", "Spark"
+      ],
+      "future_scope": "High demand across fintech, healthcare, e-commerce, and government sectors. AI adoption ensures long-term growth.",
+      "projects": [
+        "Customer Churn Prediction",
+        "Stock Price Forecasting",
+        "Medical Disease Detection (X-Ray / MRI)",
+        "Sentiment Analysis on Social Media",
+        "Recommendation System (Netflix-style)"
+      ],
+      "certifications": [
+        "IBM Data Science Professional Certificate (Coursera)",
+        "Google Data Analytics Certificate",
+        "Microsoft Azure Data Scientist Associate",
+        "Kaggle Competitions"
+      ],
+      "roadmap": {
+        "semester_1": {
+          "title": "Foundations",
+          "topics": ["Python Basics", "Mathematics for ML (Linear Algebra)", "Probability & Statistics", "Introduction to Data Science"],
+          "resources": {
+            "youtube": [
+              {"name": "Python for Everybody - freeCodeCamp", "url": "https://www.youtube.com/watch?v=nLRL_NcnK-4"},
+              {"name": "Statistics for Data Science - StatQuest", "url": "https://www.youtube.com/@statquest"}
+            ],
+            "courses": [
+              {"name": "Python for Everybody - Coursera (Free Audit)", "url": "https://www.coursera.org/specializations/python", "type": "free"},
+              {"name": "Khan Academy Statistics", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "free"}
+            ]
+          }
+        },
+        "semester_2": {
+          "title": "Data Manipulation & Visualization",
+          "topics": ["Pandas & NumPy", "SQL Basics", "Data Visualization (Matplotlib, Seaborn)", "EDA Techniques"],
+          "resources": {
+            "youtube": [
+              {"name": "Pandas Tutorial - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS"},
+              {"name": "Data Analysis with Python - freeCodeCamp", "url": "https://www.youtube.com/watch?v=GPVsHOlRBBI"}
+            ],
+            "courses": [
+              {"name": "Data Analysis with Python - NPTEL", "url": "https://nptel.ac.in/courses/106104235", "type": "free"},
+              {"name": "Data Visualization with Python - Coursera (Free Audit)", "url": "https://www.coursera.org/learn/python-for-data-visualization", "type": "free"}
+            ]
+          }
+        },
+        "semester_3": {
+          "title": "Machine Learning Core",
+          "topics": ["Supervised Learning", "Unsupervised Learning", "Model Evaluation", "Feature Engineering", "Cross Validation"],
+          "resources": {
+            "youtube": [
+              {"name": "ML Course - Sentdex", "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v"},
+              {"name": "StatQuest ML Playlist", "url": "https://www.youtube.com/@statquest/playlists"}
+            ],
+            "courses": [
+              {"name": "Machine Learning - Andrew Ng (Coursera)", "url": "https://www.coursera.org/learn/machine-learning", "type": "paid"},
+              {"name": "Machine Learning - NPTEL IIT Madras", "url": "https://nptel.ac.in/courses/106106139", "type": "free"}
+            ]
+          }
+        },
+        "semester_4": {
+          "title": "Deep Learning & Advanced Topics",
+          "topics": ["Neural Networks", "CNNs", "RNNs/LSTMs", "NLP Basics", "Transfer Learning"],
+          "resources": {
+            "youtube": [
+              {"name": "Deep Learning Specialization - Coursera Preview", "url": "https://www.youtube.com/watch?v=CS4cs9xVecg"},
+              {"name": "Neural Networks from Scratch - Sentdex", "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAebJ31TAR0pJJv3mw"}
+            ],
+            "courses": [
+              {"name": "Deep Learning Specialization - Coursera (Andrew Ng)", "url": "https://www.coursera.org/specializations/deep-learning", "type": "paid"},
+              {"name": "Fast.ai Practical Deep Learning", "url": "https://course.fast.ai/", "type": "free"}
+            ]
+          }
+        },
+        "semester_5": {
+          "title": "Projects & Deployment",
+          "topics": ["End-to-end ML Projects", "Model Deployment (Flask/FastAPI)", "Streamlit Apps", "Kaggle Competitions"],
+          "resources": {
+            "youtube": [
+              {"name": "Deploy ML Model with Flask - Krish Naik", "url": "https://www.youtube.com/@krishnaik06"},
+              {"name": "Kaggle Competitions - tips & tricks", "url": "https://www.youtube.com/watch?v=GJld6UMsVW8"}
+            ],
+            "courses": [
+              {"name": "MLOps Specialization - Coursera", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops", "type": "paid"},
+              {"name": "Weights & Biases Courses (Free)", "url": "https://www.wandb.courses/", "type": "free"}
+            ]
+          }
+        },
+        "semester_6": {
+          "title": "Internship Preparation",
+          "topics": ["Resume Building", "Leetcode (Easy/Medium)", "System Design Basics", "Data Science Interviews", "Portfolio on GitHub"],
+          "resources": {
+            "youtube": [
+              {"name": "Data Science Interview Prep - Ken Jee", "url": "https://www.youtube.com/@KenJee_ds"},
+              {"name": "Mock DS Interviews - TechTFQ", "url": "https://www.youtube.com/@techTFQ"}
+            ],
+            "courses": [
+              {"name": "Ace the Data Science Interview - Book", "url": "https://www.acethedatascienceinterview.com/", "type": "paid"},
+              {"name": "Kaggle Learn (Free)", "url": "https://www.kaggle.com/learn", "type": "free"}
+            ]
+          }
+        }
+      }
+    },
+    "ml_engineer": {
+      "title": "ML Engineer",
+      "description": "ML Engineers build and maintain machine learning systems, focusing on productionizing ML models, scalable pipelines, and infrastructure.",
+      "salary_range": {
+        "fresher": "6-12 LPA",
+        "mid": "12-25 LPA",
+        "senior": "25-60 LPA"
+      },
+      "required_skills": [
+        "Python", "Machine Learning", "MLOps", "Docker", "Kubernetes",
+        "Cloud Platforms (AWS/GCP/Azure)", "Data Engineering", "CI/CD Pipelines",
+        "REST APIs", "System Design"
+      ],
+      "tools_frameworks": [
+        "TensorFlow", "PyTorch", "Scikit-learn", "MLflow", "Kubeflow",
+        "Airflow", "Docker", "Kubernetes", "FastAPI", "AWS SageMaker",
+        "Google Vertex AI", "DVC", "Weights & Biases"
+      ],
+      "future_scope": "Critical role as companies scale AI. Highest paying AI-adjacent role with strong growth in MLOps.",
+      "projects": [
+        "Real-time Fraud Detection Pipeline",
+        "Scalable Image Classification API",
+        "Automated ML Training Pipeline",
+        "Recommendation System with Real-time Updates",
+        "NLP Model Serving System"
+      ],
+      "certifications": [
+        "AWS Certified Machine Learning Specialty",
+        "Google Professional ML Engineer",
+        "Microsoft Azure AI Engineer",
+        "MLflow & Kubeflow Certifications"
+      ],
+      "roadmap": {
+        "semester_1": {
+          "title": "Python & CS Fundamentals",
+          "topics": ["Python Advanced", "Data Structures & Algorithms", "OOP", "Linux Basics"],
+          "resources": {
+            "youtube": [
+              {"name": "Python OOP - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeHtZ"},
+              {"name": "DSA in Python - freeCodeCamp", "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA"}
+            ],
+            "courses": [
+              {"name": "CS50's Introduction to Computer Science", "url": "https://cs50.harvard.edu/x/", "type": "free"},
+              {"name": "Algorithms Specialization - Coursera", "url": "https://www.coursera.org/specializations/algorithms", "type": "paid"}
+            ]
+          }
+        },
+        "semester_2": {
+          "title": "ML Foundations",
+          "topics": ["Core ML Algorithms", "Scikit-learn", "Model Evaluation", "Feature Engineering"],
+          "resources": {
+            "youtube": [
+              {"name": "ML Playlist - Krish Naik", "url": "https://www.youtube.com/@krishnaik06"},
+              {"name": "StatQuest ML", "url": "https://www.youtube.com/@statquest"}
+            ],
+            "courses": [
+              {"name": "Machine Learning - Andrew Ng", "url": "https://www.coursera.org/learn/machine-learning", "type": "paid"},
+              {"name": "NPTEL ML Course", "url": "https://nptel.ac.in/courses/106106139", "type": "free"}
+            ]
+          }
+        },
+        "semester_3": {
+          "title": "Deep Learning & Neural Networks",
+          "topics": ["Neural Networks", "CNNs", "RNNs", "Transformers", "PyTorch/TensorFlow"],
+          "resources": {
+            "youtube": [
+              {"name": "PyTorch Tutorial - Patrick Loeber", "url": "https://www.youtube.com/watch?v=c36lUUr864M"},
+              {"name": "Deep Learning - freeCodeCamp", "url": "https://www.youtube.com/watch?v=dPWYUELwIdM"}
+            ],
+            "courses": [
+              {"name": "Fast.ai Practical Deep Learning", "url": "https://course.fast.ai/", "type": "free"},
+              {"name": "Deep Learning Specialization", "url": "https://www.coursera.org/specializations/deep-learning", "type": "paid"}
+            ]
+          }
+        },
+        "semester_4": {
+          "title": "MLOps & Infrastructure",
+          "topics": ["Docker", "Kubernetes", "MLflow", "DVC", "CI/CD", "Cloud Basics"],
+          "resources": {
+            "youtube": [
+              {"name": "Docker Tutorial - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=3c-iBn73dDE"},
+              {"name": "MLOps Course - Made With ML", "url": "https://www.youtube.com/@madewithml"}
+            ],
+            "courses": [
+              {"name": "Made With ML (Free MLOps)", "url": "https://madewithml.com/", "type": "free"},
+              {"name": "MLOps Specialization - Coursera", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops", "type": "paid"}
+            ]
+          }
+        },
+        "semester_5": {
+          "title": "Cloud & Scalable Systems",
+          "topics": ["AWS/GCP/Azure for ML", "SageMaker / Vertex AI", "Data Pipelines", "Airflow"],
+          "resources": {
+            "youtube": [
+              {"name": "AWS ML Tutorial - freeCodeCamp", "url": "https://www.youtube.com/watch?v=u7zH-kVVCpQ"},
+              {"name": "Apache Airflow Tutorial", "url": "https://www.youtube.com/watch?v=K9AnJ9_ZAXE"}
+            ],
+            "courses": [
+              {"name": "AWS ML Specialty - Official", "url": "https://aws.amazon.com/certification/certified-machine-learning-specialty/", "type": "paid"},
+              {"name": "Google Cloud Free Tier", "url": "https://cloud.google.com/free", "type": "free"}
+            ]
+          }
+        },
+        "semester_6": {
+          "title": "System Design & Interview Prep",
+          "topics": ["ML System Design", "Leetcode", "Low-level Design", "Portfolio", "Mock Interviews"],
+          "resources": {
+            "youtube": [
+              {"name": "ML System Design - Educative", "url": "https://www.youtube.com/watch?v=iHlDnEXlB1E"},
+              {"name": "NeetCode Leetcode", "url": "https://www.youtube.com/@NeetCode"}
+            ],
+            "courses": [
+              {"name": "Grokking the ML Interview", "url": "https://www.educative.io/courses/grokking-the-machine-learning-interview", "type": "paid"},
+              {"name": "LeetCode Free", "url": "https://leetcode.com/", "type": "free"}
+            ]
+          }
+        }
+      }
+    },
+    "ai_engineer": {
+      "title": "AI Engineer",
+      "description": "AI Engineers build AI-powered products and applications, integrating LLMs, generative AI, and intelligent automation into real-world systems.",
+      "salary_range": {
+        "fresher": "6-12 LPA",
+        "mid": "12-30 LPA",
+        "senior": "30-80 LPA"
+      },
+      "required_skills": [
+        "Python", "LLMs (GPT/Gemini/LLaMA)", "Prompt Engineering", "LangChain",
+        "Vector Databases", "RAG (Retrieval-Augmented Generation)", "APIs",
+        "Fine-tuning", "Embeddings", "AI Product Development"
+      ],
+      "tools_frameworks": [
+        "OpenAI API", "LangChain", "LlamaIndex", "ChromaDB", "Pinecone",
+        "HuggingFace", "FastAPI", "Streamlit", "Gradio", "LangGraph",
+        "AutoGen", "CrewAI", "Ollama"
+      ],
+      "future_scope": "One of the fastest-growing roles. Every company building AI products needs AI Engineers. Massive growth in 2024-2030.",
+      "projects": [
+        "Custom Chatbot with RAG over your documents",
+        "AI Code Review System",
+        "Multi-Agent Research Assistant",
+        "LLM-powered Resume Screener",
+        "Voice-based AI Customer Support System"
+      ],
+      "certifications": [
+        "DeepLearning.AI Short Courses (Free)",
+        "HuggingFace NLP Course (Free)",
+        "LangChain Academy Courses",
+        "AWS/GCP Generative AI Certifications"
+      ],
+      "roadmap": {
+        "semester_1": {
+          "title": "Python & API Fundamentals",
+          "topics": ["Python Advanced", "REST APIs", "JSON handling", "Virtual Environments"],
+          "resources": {
+            "youtube": [
+              {"name": "Python REST API Tutorial - Tech With Tim", "url": "https://www.youtube.com/watch?v=GMppyAPbLYk"},
+              {"name": "FastAPI Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA"}
+            ],
+            "courses": [
+              {"name": "Python Bootcamp - Udemy (Paid)", "url": "https://www.udemy.com/course/complete-python-bootcamp/", "type": "paid"},
+              {"name": "CS50P - Harvard Python (Free)", "url": "https://cs50.harvard.edu/python/", "type": "free"}
+            ]
+          }
+        },
+        "semester_2": {
+          "title": "ML & NLP Basics",
+          "topics": ["Core ML Concepts", "NLP Fundamentals", "Text Classification", "Embeddings"],
+          "resources": {
+            "youtube": [
+              {"name": "NLP Zero to Hero - TensorFlow", "url": "https://www.youtube.com/playlist?list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S"},
+              {"name": "HuggingFace Course Preview", "url": "https://www.youtube.com/watch?v=00GKzgyWFEs"}
+            ],
+            "courses": [
+              {"name": "HuggingFace NLP Course (Free)", "url": "https://huggingface.co/learn/nlp-course/chapter1/1", "type": "free"},
+              {"name": "NLP Specialization - Coursera", "url": "https://www.coursera.org/specializations/natural-language-processing", "type": "paid"}
+            ]
+          }
+        },
+        "semester_3": {
+          "title": "LLMs & Prompt Engineering",
+          "topics": ["Understanding LLMs", "Prompt Engineering", "OpenAI API", "Gemini API", "HuggingFace Inference"],
+          "resources": {
+            "youtube": [
+              {"name": "ChatGPT Prompt Engineering - DeepLearning.AI Preview", "url": "https://www.youtube.com/watch?v=H4YK_7MAckk"},
+              {"name": "LLM Explained Simply - Andrej Karpathy", "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g"}
+            ],
+            "courses": [
+              {"name": "ChatGPT Prompt Engineering for Devs - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", "type": "free"},
+              {"name": "Generative AI with LLMs - Coursera", "url": "https://www.coursera.org/learn/generative-ai-with-llms", "type": "paid"}
+            ]
+          }
+        },
+        "semester_4": {
+          "title": "LangChain, RAG & Vector DBs",
+          "topics": ["LangChain Framework", "RAG Architecture", "Vector Databases (Chroma/Pinecone)", "LlamaIndex"],
+          "resources": {
+            "youtube": [
+              {"name": "LangChain Full Course - Sam Witteveen", "url": "https://www.youtube.com/watch?v=mrjq3lFz23s"},
+              {"name": "RAG from Scratch - LangChain", "url": "https://www.youtube.com/watch?v=sVcwVQRHIc8"}
+            ],
+            "courses": [
+              {"name": "LangChain for LLM App Dev - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/", "type": "free"},
+              {"name": "Vector Databases - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/", "type": "free"}
+            ]
+          }
+        },
+        "semester_5": {
+          "title": "AI Agents & Fine-tuning",
+          "topics": ["AI Agents (AutoGen/CrewAI)", "Tool Use", "Fine-tuning LLMs", "LoRA / QLoRA"],
+          "resources": {
+            "youtube": [
+              {"name": "CrewAI Tutorial - Brandon Hancock", "url": "https://www.youtube.com/watch?v=tnejrr-0a94"},
+              {"name": "Fine-tune LLaMA 2 - Code with Ania", "url": "https://www.youtube.com/watch?v=Q9zv369Ggfk"}
+            ],
+            "courses": [
+              {"name": "AI Agents in LangGraph - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/", "type": "free"},
+              {"name": "Fine-tuning LLMs - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/", "type": "free"}
+            ]
+          }
+        },
+        "semester_6": {
+          "title": "AI Product Development & Deployment",
+          "topics": ["Building AI Apps", "Streamlit / Gradio / FastAPI", "Deployment on Cloud", "Portfolio Projects"],
+          "resources": {
+            "youtube": [
+              {"name": "Build AI Apps - Sentdex", "url": "https://www.youtube.com/@sentdex"},
+              {"name": "Deploy AI Model to AWS", "url": "https://www.youtube.com/watch?v=5J0GxcSb8DU"}
+            ],
+            "courses": [
+              {"name": "Full Stack LLM Bootcamp (Free)", "url": "https://fullstackdeeplearning.com/llm-bootcamp/", "type": "free"},
+              {"name": "LLMOps - DeepLearning.AI (Free)", "url": "https://www.deeplearning.ai/short-courses/llmops/", "type": "free"}
+            ]
+          }
+        }
+      }
+    },
+    "full_stack_developer": {
+      "title": "Full Stack Developer",
+      "description": "Full Stack Developers build complete web applications, handling both frontend UI and backend server logic, databases, and APIs.",
+      "salary_range": {
+        "fresher": "4-8 LPA",
+        "mid": "8-20 LPA",
+        "senior": "20-45 LPA"
+      },
+      "required_skills": [
+        "HTML/CSS/JavaScript", "React.js / Vue.js", "Node.js / Django / Flask",
+        "REST APIs", "Databases (SQL + NoSQL)", "Git", "Docker basics",
+        "Authentication & Security", "Responsive Design", "TypeScript"
+      ],
+      "tools_frameworks": [
+        "React.js", "Next.js", "Node.js", "Express.js", "Django", "FastAPI",
+        "PostgreSQL", "MongoDB", "Redis", "Docker", "Nginx", "Tailwind CSS",
+        "GraphQL", "AWS / Vercel / Railway"
+      ],
+      "future_scope": "Consistently high demand. Startups and MNCs alike need full-stack engineers. Remote-work friendly.",
+      "projects": [
+        "Full-stack E-commerce Platform",
+        "Real-time Chat Application (Socket.io)",
+        "Task Management SaaS App",
+        "Social Media Clone (Twitter / Instagram)",
+        "Job Portal with Auth & Payment"
+      ],
+      "certifications": [
+        "The Odin Project (Free)",
+        "Full Stack Open (University of Helsinki - Free)",
+        "Meta Frontend Developer Certificate",
+        "AWS Developer Associate"
+      ],
+      "roadmap": {
+        "semester_1": {
+          "title": "HTML, CSS & JavaScript Basics",
+          "topics": ["HTML5 Semantics", "CSS Flexbox/Grid", "JavaScript Fundamentals", "DOM Manipulation"],
+          "resources": {
+            "youtube": [
+              {"name": "HTML & CSS Full Course - Dave Gray", "url": "https://www.youtube.com/watch?v=mU6anWqZJcc"},
+              {"name": "JavaScript Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg"}
+            ],
+            "courses": [
+              {"name": "freeCodeCamp Web Development (Free)", "url": "https://www.freecodecamp.org/", "type": "free"},
+              {"name": "The Odin Project (Free)", "url": "https://www.theodinproject.com/", "type": "free"}
+            ]
+          }
+        },
+        "semester_2": {
+          "title": "React.js & Frontend Frameworks",
+          "topics": ["React Components", "State Management", "React Router", "Tailwind CSS", "TypeScript Basics"],
+          "resources": {
+            "youtube": [
+              {"name": "React Full Course - Dave Gray", "url": "https://www.youtube.com/watch?v=RVFAyFWO4go"},
+              {"name": "React JS Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8"}
+            ],
+            "courses": [
+              {"name": "Full Stack Open - University of Helsinki (Free)", "url": "https://fullstackopen.com/", "type": "free"},
+              {"name": "React - The Complete Guide - Udemy", "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/", "type": "paid"}
+            ]
+          }
+        },
+        "semester_3": {
+          "title": "Backend Development (Node.js / Django)",
+          "topics": ["Node.js & Express", "REST API Design", "Authentication (JWT)", "Django / Flask"],
+          "resources": {
+            "youtube": [
+              {"name": "Node.js Full Course - Dave Gray", "url": "https://www.youtube.com/watch?v=f2EqECiTBL8"},
+              {"name": "Django Full Course - Dennis Ivy", "url": "https://www.youtube.com/watch?v=PtQiiknWUcI"}
+            ],
+            "courses": [
+              {"name": "CS50 Web Programming (Free)", "url": "https://cs50.harvard.edu/web/", "type": "free"},
+              {"name": "Node.js Developer Course - Udemy (Paid)", "url": "https://www.udemy.com/course/the-complete-nodejs-developer-course-2/", "type": "paid"}
+            ]
+          }
+        },
+        "semester_4": {
+          "title": "Databases & DevOps",
+          "topics": ["PostgreSQL", "MongoDB", "Redis", "Docker", "CI/CD Basics", "Nginx"],
+          "resources": {
+            "youtube": [
+              {"name": "PostgreSQL Tutorial - Traversy Media", "url": "https://www.youtube.com/watch?v=-VO7YjQeG6Y"},
+              {"name": "Docker Crash Course - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=pg19Z8LL06w"}
+            ],
+            "courses": [
+              {"name": "Docker & Kubernetes - Udemy (Stephen Grider)", "url": "https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/", "type": "paid"},
+              {"name": "MongoDB University (Free)", "url": "https://university.mongodb.com/", "type": "free"}
+            ]
+          }
+        },
+        "semester_5": {
+          "title": "Full-Stack Projects",
+          "topics": ["End-to-end Project Building", "Deployment (Vercel/Railway/AWS)", "Performance Optimization", "Security Best Practices"],
+          "resources": {
+            "youtube": [
+              {"name": "Build & Deploy Full Stack App - JS Mastery", "url": "https://www.youtube.com/@javascriptmastery"},
+              {"name": "AWS Deployment Tutorial - Traversy Media", "url": "https://www.youtube.com/watch?v=NjYsXuSBZ5U"}
+            ],
+            "courses": [
+              {"name": "Next.js & React - Udemy (Maximilian)", "url": "https://www.udemy.com/course/nextjs-react-the-complete-guide/", "type": "paid"},
+              {"name": "Vercel Deployment (Free)", "url": "https://vercel.com/docs", "type": "free"}
+            ]
+          }
+        },
+        "semester_6": {
+          "title": "Interview Preparation",
+          "topics": ["DSA for Web Dev", "System Design", "HR Rounds", "Portfolio", "Open Source Contributions"],
+          "resources": {
+            "youtube": [
+              {"name": "System Design Concepts - ByteByteGo", "url": "https://www.youtube.com/@ByteByteGo"},
+              {"name": "JavaScript DSA - Coding Addict", "url": "https://www.youtube.com/watch?v=t2CEgPsws3U"}
+            ],
+            "courses": [
+              {"name": "NeetCode 150 (Free)", "url": "https://neetcode.io/", "type": "free"},
+              {"name": "Grokking System Design - Educative", "url": "https://www.educative.io/courses/grokking-the-system-design-interview", "type": "paid"}
+            ]
+          }
+        }
+      }
+    },
+    "cyber_security_analyst": {
+      "title": "Cyber Security Analyst",
+      "description": "Cyber Security Analysts protect organizations from digital threats, vulnerabilities, and attacks by monitoring, analyzing, and responding to security incidents.",
+      "salary_range": {
+        "fresher": "4-8 LPA",
+        "mid": "8-18 LPA",
+        "senior": "18-40 LPA"
+      },
+      "required_skills": [
+        "Networking Fundamentals", "Linux", "Python for Security", "SIEM Tools",
+        "Vulnerability Assessment", "Penetration Testing", "Cryptography",
+        "Incident Response", "Firewalls & IDS/IPS", "OWASP Top 10"
+      ],
+      "tools_frameworks": [
+        "Wireshark", "Nmap", "Metasploit", "Burp Suite", "Kali Linux",
+        "Splunk", "ELK Stack", "Snort", "OWASP ZAP", "HashiCorp Vault",
+        "OpenVAS", "Nessus"
+      ],
+      "future_scope": "Critical shortage of security professionals worldwide. Government, banking, healthcare sectors are top employers. Remote work friendly.",
+      "projects": [
+        "Build a Home Lab for Penetration Testing",
+        "Vulnerability Scanner with Python",
+        "SIEM Dashboard with ELK Stack",
+        "Honeypot Setup & Attack Analysis",
+        "CTF (Capture The Flag) Challenges"
+      ],
+      "certifications": [
+        "CompTIA Security+ (Industry Standard)",
+        "CEH - Certified Ethical Hacker",
+        "OSCP - Offensive Security Certified Professional",
+        "CISSP (Advanced)"
+      ],
+      "roadmap": {
+        "semester_1": {
+          "title": "Networking & Linux Foundations",
+          "topics": ["Networking Fundamentals (TCP/IP, OSI)", "Linux Command Line", "Network Protocols", "Virtualization"],
+          "resources": {
+            "youtube": [
+              {"name": "Computer Networking Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=qiQR5rTSshw"},
+              {"name": "Linux for Beginners - Network Chuck", "url": "https://www.youtube.com/watch?v=wBp0Rb-ZJak"}
+            ],
+            "courses": [
+              {"name": "Networking Basics - Cisco NetAcad (Free)", "url": "https://www.netacad.com/courses/networking", "type": "free"},
+              {"name": "Linux Foundation - edX (Free Audit)", "url": "https://www.edx.org/course/introduction-to-linux", "type": "free"}
+            ]
+          }
+        },
+        "semester_2": {
+          "title": "Security Fundamentals",
+          "topics": ["CIA Triad", "Authentication & Authorization", "Cryptography Basics", "OWASP Top 10"],
+          "resources": {
+            "youtube": [
+              {"name": "Cybersecurity Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=U_P23SqJaDc"},
+              {"name": "Cryptography - Computerphile", "url": "https://www.youtube.com/@Computerphile"}
+            ],
+            "courses": [
+              {"name": "IBM Cybersecurity Analyst - Coursera (Free Audit)", "url": "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst", "type": "free"},
+              {"name": "Cybersecurity for Everyone - Coursera (Free)", "url": "https://www.coursera.org/learn/cybersecurity-for-everyone", "type": "free"}
+            ]
+          }
+        },
+        "semester_3": {
+          "title": "Ethical Hacking & Penetration Testing",
+          "topics": ["Kali Linux", "Nmap", "Metasploit", "Web App Penetration Testing", "Burp Suite"],
+          "resources": {
+            "youtube": [
+              {"name": "Ethical Hacking - Network Chuck", "url": "https://www.youtube.com/@NetworkChuck"},
+              {"name": "Penetration Testing Tutorial - TCM Security", "url": "https://www.youtube.com/@TCMSecurityAcademy"}
+            ],
+            "courses": [
+              {"name": "Penetration Testing - TryHackMe (Free Tier)", "url": "https://tryhackme.com/", "type": "free"},
+              {"name": "Ethical Hacking Bootcamp - Udemy (TCM)", "url": "https://www.udemy.com/course/practical-ethical-hacking/", "type": "paid"}
+            ]
+          }
+        },
+        "semester_4": {
+          "title": "SIEM, Forensics & Threat Intelligence",
+          "topics": ["SIEM with Splunk/ELK", "Digital Forensics", "Malware Analysis", "Threat Intelligence", "MITRE ATT&CK"],
+          "resources": {
+            "youtube": [
+              {"name": "Splunk Tutorial - John Strand", "url": "https://www.youtube.com/watch?v=aTy8C7YMxu4"},
+              {"name": "Digital Forensics - freeCodeCamp", "url": "https://www.youtube.com/watch?v=OlJyaHNyOvw"}
+            ],
+            "courses": [
+              {"name": "Splunk Free Training", "url": "https://www.splunk.com/en_us/training/free-courses/overview.html", "type": "free"},
+              {"name": "SOC Analyst Path - TryHackMe (Free)", "url": "https://tryhackme.com/path/outline/soclevel1", "type": "free"}
+            ]
+          }
+        },
+        "semester_5": {
+          "title": "Security Projects & CTF",
+          "topics": ["CTF Challenges (HackTheBox)", "Python for Security Automation", "Home Lab Setup", "Vulnerability Reports"],
+          "resources": {
+            "youtube": [
+              {"name": "HackTheBox Walkthroughs - IppSec", "url": "https://www.youtube.com/@ippsec"},
+              {"name": "Python Security Scripts - David Bombal", "url": "https://www.youtube.com/@davidbombal"}
+            ],
+            "courses": [
+              {"name": "HackTheBox Free Tier", "url": "https://www.hackthebox.com/", "type": "free"},
+              {"name": "SANS Cyber Aces (Free)", "url": "https://www.cyberaces.org/", "type": "free"}
+            ]
+          }
+        },
+        "semester_6": {
+          "title": "Certification Prep & Job Readiness",
+          "topics": ["CompTIA Security+ Exam Prep", "Resume for Security Roles", "Bug Bounty Programs", "LinkedIn Optimization"],
+          "resources": {
+            "youtube": [
+              {"name": "CompTIA Security+ Study Guide - Professor Messer", "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/"},
+              {"name": "Bug Bounty Guide - NahamSec", "url": "https://www.youtube.com/@NahamSec"}
+            ],
+            "courses": [
+              {"name": "CompTIA Security+ - Professor Messer (Free)", "url": "https://www.professormesser.com/", "type": "free"},
+              {"name": "Bug Bounty Bootcamp - Udemy (Paid)", "url": "https://www.udemy.com/course/bug-bounty-hunting-ethical-hacking/", "type": "paid"}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "intent_patterns": {
+    "greeting": ["hello", "hi", "hey", "good morning", "good evening", "namaste", "hola", "wassup"],
+    "career_query": ["career", "job", "role", "path", "which career", "what should i become", "future"],
+    "roadmap_request": ["roadmap", "plan", "learning path", "how to become", "steps to become", "guide me", "guide"],
+    "skill_gap": ["skill gap", "what skills", "skills needed", "missing skills", "what do i lack", "what to learn"],
+    "course_recommendation": ["course", "resources", "where to learn", "best course", "recommend", "tutorial", "youtube"],
+    "salary_query": ["salary", "pay", "income", "earnings", "package", "ctc", "lpa"],
+    "profiling": ["semester", "year", "know python", "programming language", "study hours", "current semester"],
+    "help": ["help", "what can you do", "features", "options", "menu"],
+    "farewell": ["bye", "goodbye", "see you", "later", "thanks", "thank you"]
+  },
+  "programming_languages": [
+    "python", "javascript", "java", "c", "c++", "typescript", "kotlin", "swift",
+    "go", "rust", "ruby", "php", "r", "scala", "dart", "sql"
+  ],
+  "career_roles": ["data_scientist", "ml_engineer", "ai_engineer", "full_stack_developer", "cyber_security_analyst"]
+}
