@@ -1,4 +1,8 @@
-const API_ROOT = (import.meta.env?.VITE_API_URL || '').replace(/\/$/, '')
+// VITE_API_URL may be a full URL (https://api.example.com) or a bare host
+// (api.example.com) when injected from a deploy platform. Normalize both,
+// and fall back to same-origin relative /api when unset.
+const rawApiUrl = (import.meta.env?.VITE_API_URL || '').trim().replace(/\/+$/, '')
+const API_ROOT = rawApiUrl && !/^https?:\/\//i.test(rawApiUrl) ? `https://${rawApiUrl}` : rawApiUrl
 const BASE = API_ROOT ? `${API_ROOT}/api` : '/api'
 const TIMEOUT_MS = 45000
 
