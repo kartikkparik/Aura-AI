@@ -36,15 +36,7 @@ function persistConversations(convList) {
     }
 }
 
-const DEFAULT_WELCOME = `Hi, I'm **Aura** — your personal career mentor. No login needed; just ask.
-
-I can help across many fields:
-• **Tech & AI** (Full-Stack, Data Science, DevOps, Cybersecurity)
-• **Healthcare** (MBBS, Nursing, Pharmacy, Biotech)
-• **Law & Civil Services** (UPSC, Judiciary, Corporate Law)
-• **Business & Finance** (CA, CFA, Investment Banking)
-
-Ask me about your career goal in English — or tell me a bit about yourself and I'll build a plan around it.`
+const DEFAULT_WELCOME = `Hi! I'm Aura, your AI career mentor. How can I help you today?`
 
 export function SessionProvider({ children }) {
     const [conversations, setConversations] = useState(getInitialConversations)

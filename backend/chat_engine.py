@@ -19,24 +19,7 @@ PROFILING_QUESTIONS = [
 
 
 def get_welcome_message() -> str:
-    return """Hi, I'm **Aura** — your personal career mentor. No login needed.
-
-I can guide you across many fields:
-💻 **Tech** (AI/ML, Software Engineering, Data Science, Cybersecurity, Cloud)
-🏥 **Healthcare** (MBBS, Nursing, Pharmacy, Biotech)
-⚖️ **Law** (Corporate Law, Judiciary, LLB)
-🏛️ **Civil & Govt** (UPSC/IAS, SSC, Defence NDA/CDS)
-💼 **Business** (MBA, CA, CFA, Investment Banking)
-🎨 **Design & Media** (UX/UI, Product Design, Digital Marketing)
-
-**What I can do:**
-✅ Step-by-step personalized learning roadmaps & timelines
-✅ Skill gap analysis & free curated resources
-✅ AI-powered Resume Analyzer & Builder
-✅ Interactive Mock Interview prep with scoring
-✅ Natural conversation — English, Hindi, or Hinglish
-
-Tell me your career goal, or type **"start"** to set up your profile!"""
+    return "Hi! I'm Aura, your AI career mentor. How can I help you today?"
 
 
 def handle_profiling(session_data: dict, user_text: str) -> Tuple[str, dict]:
