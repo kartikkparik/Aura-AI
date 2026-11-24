@@ -21,4 +21,4 @@ COPY backend/ ./backend/
 COPY --from=frontend-builder /app/frontend/dist ./frontend/dist
 
 EXPOSE 5000
-CMD ["gunicorn", "--chdir", "backend", "-c", "gunicorn_config.py", "app:app"]
+CMD ["gunicorn", "--chdir", "backend", "-c", "backend/gunicorn_config.py", "app:app"]

@@ -6,7 +6,7 @@ import time
 from collections import defaultdict
 from pathlib import Path
 from datetime import datetime
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import sys
 
@@ -400,6 +400,21 @@ def create_app():
     @app.errorhandler(500)
     def internal_error(error):
         return jsonify({"error": "An unexpected server error occurred. Please try again later."}), 500
+
+    # Serve the built React frontend when frontend/dist exists (production Docker deploys)
+    dist_dir = Path(__file__).parent.parent / "frontend" / "dist"
+    if dist_dir.is_dir():
+        logger.info(f"Serving frontend build from {dist_dir}")
+
+        @app.route("/", defaults={"path": ""})
+        @app.route("/<path:path>")
+        def serve_frontend(path):
+            if path.startswith("api/"):
+                return jsonify({"error": "Resource not found."}), 404
+            candidate = dist_dir / path
+            if path and candidate.is_file():
+                return send_from_directory(dist_dir, path)
+            return send_from_directory(dist_dir, "index.html")
 
     return app
 
