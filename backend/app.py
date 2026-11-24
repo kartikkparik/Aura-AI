@@ -93,7 +93,7 @@ def create_app():
     # -------------------------------------------------------------------------
     # Health & System Endpoints
     # -------------------------------------------------------------------------
-    @app.route("/", methods=["GET"])
+    @app.route("/api/status", methods=["GET"])
     def root():
         return jsonify({
             "service": "Aura AI Production API",
