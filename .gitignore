@@ -72,7 +72,7 @@ Desktop.ini
 logs/
 
 # ========================
-# AI tool / agent configs (local only)
+# Local tool / agent configs
 # ========================
 .agents/
 .claude/
@@ -81,7 +81,7 @@ logs/
 .gemini/
 
 # ========================
-# Impeccable local state
+# Local live-reload tool state
 # ========================
 .impeccable/
 
