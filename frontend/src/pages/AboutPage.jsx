@@ -5,22 +5,22 @@ const ARCHITECTURE_HIGHLIGHTS = [
     {
         icon: <Cpu size={24} className="text-ember-400" />,
         title: 'LLM Orchestration Engine',
-        desc: 'Engineered high-throughput context streaming with Groq LLaMA 3.3 70B, custom multi-role system prompting, and natural Hindi/Hinglish multilingual intelligence.'
+        desc: 'Single Groq gateway (GPT-OSS 120B with 20B fallback) behind ask_groq(), with multi-role system prompting, bounded context trimming, retry on transient failures, and natural Hindi/Hinglish multilingual intelligence.'
     },
     {
         icon: <Database size={24} className="text-[#7fa8c9]" />,
-        title: 'Cloud-Ready Persistent Storage',
-        desc: 'Designed SQLAlchemy schemas supporting multi-thread conversation tracking, SHA-256 hashed authentication, and automated data retention policies.'
+        title: 'Stateless Backend, Client-Side Sessions',
+        desc: 'Flask API stores nothing between requests — conversation history and profiles travel as bounded payloads and persist in browser localStorage (10 threads, 7-day retention), so user data never touches a server-side database.'
     },
     {
         icon: <Layout size={24} className="text-[#d96c3f]" />,
         title: 'Reactive Full-Stack Frontend',
-        desc: 'Built with React 18 & Vite, featuring modular context state management, responsive ChatGPT-style sidebar navigation, and glassmorphic UI design.'
+        desc: 'Built with React 18 & Vite, featuring context-based session state management, a responsive chat sidebar, and a glassmorphic dark UI.'
     },
     {
         icon: <ShieldCheck size={24} className="text-emerald-400" />,
-        title: 'Enterprise Document & ATS Analysis',
-        desc: 'Implemented multipart binary parsing (PDF/DOCX) combined with heuristic keyword scoring to evaluate ATS compatibility across 50+ career verticals.'
+        title: 'Document & ATS Analysis',
+        desc: 'Multipart PDF/DOCX/TXT upload handling with text extraction and heuristic keyword scoring to evaluate ATS compatibility across the curated career knowledge base.'
     }
 ]
 
@@ -29,10 +29,10 @@ const TECH_STACK = [
     { name: 'Vite 5', category: 'Build Tool', icon: '⚡' },
     { name: 'Tailwind CSS', category: 'Styling', icon: '🎨' },
     { name: 'Python Flask', category: 'Backend API', icon: '🐍' },
-    { name: 'Groq LLaMA 3.3', category: 'AI Inference', icon: '🧠' },
-    { name: 'SQLAlchemy', category: 'Database ORM', icon: '🗄️' },
+    { name: 'Groq GPT-OSS', category: 'AI Inference', icon: '🧠' },
     { name: 'REST APIs', category: 'Architecture', icon: '🔌' },
-    { name: 'Werkzeug Auth', category: 'Security', icon: '🔒' }
+    { name: 'React Router', category: 'Navigation', icon: '🧭' },
+    { name: 'localStorage', category: 'Client Sessions', icon: '💾' }
 ]
 
 export default function AboutPage() {
@@ -74,10 +74,10 @@ export default function AboutPage() {
                             Full-Stack Engineer & AI Systems Developer
                         </p>
                         <p className="text-sm text-zinc-300 leading-relaxed mb-5">
-                            Built the entirety of Aura AI — architecting the Flask REST API backend, designing the responsive React frontend, integrating Groq LLaMA 3.3 70B inference pipelines, and engineering secure authentication and document parsing systems.
+                            Built the entirety of Aura AI — architecting the Flask REST API backend, designing the responsive React frontend, wiring the Groq GPT-OSS inference pipeline with model fallback and retries, and engineering the document parsing and scoring systems.
                         </p>
                         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                            {['Full-Stack Architecture', 'LLM Integration', 'System Design', 'React / Vite', 'Python / Flask', 'Database Modeling'].map(s => (
+                            {['Full-Stack Architecture', 'LLM Integration', 'System Design', 'React / Vite', 'Python / Flask', 'Document Intelligence'].map(s => (
                                 <span key={s} className="px-3 py-1 rounded-full text-xs font-semibold bg-zinc-800/80 text-zinc-200 border border-zinc-700/60">
                                     {s}
                                 </span>
@@ -141,7 +141,7 @@ export default function AboutPage() {
 
             {/* Footer */}
             <div className="text-center mt-12 text-xs text-zinc-500">
-                Aura AI v2.0 • Designed & Engineered by Kartik Pareek • 2025
+                Aura AI • Designed & Engineered by Kartik Pareek
             </div>
         </div>
     )

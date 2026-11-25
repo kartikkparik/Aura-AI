@@ -6,7 +6,7 @@ color 0A
 echo.
 echo  ============================================================
 echo     AURA AI v2.0 - AI Career Guidance for Every Field
-echo     Powered by Groq LLaMA 3.3 70B
+echo     Powered by Groq GPT-OSS
 echo  ============================================================
 echo.
 echo  Creator & Developer: Kartik Pareek

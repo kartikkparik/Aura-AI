@@ -83,9 +83,7 @@ logs/
 # ========================
 # Impeccable local state
 # ========================
-.impeccable/questions/
-.impeccable/mocks/
-.impeccable/config.local.json
+.impeccable/
 
 # ========================
 # Misc

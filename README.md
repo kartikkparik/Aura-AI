@@ -20,7 +20,7 @@ No accounts. No sign-up. Conversations live in the browser's `localStorage` and 
 
 | # | Tool | What it does |
 |---|------|--------------|
-| 1 | **Career Mentor** | ChatGPT-style conversational mentor with multi-thread history, profiling flow, and profile-aware answers across tech, healthcare, law, civil services, business, and design. |
+| 1 | **Career Mentor** | Conversational mentor with multi-thread history, profiling flow, and profile-aware answers across tech, healthcare, law, civil services, business, and design. |
 | 2 | **Guided Profiling** | Five-step onboarding collects name, semester, skills, career goal, and weekly study hours, then returns an AI evaluation with 30-day actions and a job-readiness timeline. |
 | 3 | **ATS Resume Analyzer** | Upload PDF/DOCX/TXT or paste text → 100-point score across format, keywords, experience, skills, and education, plus ATS rating and improvement notes. |
 | 4 | **AI Resume Builder** | Multi-section form generates an ATS-optimized summary, quantified bullets, categorized skills, and keywords as styled HTML + plain text. |

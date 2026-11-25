@@ -11,7 +11,6 @@ The following files contain sensitive information and **must NEVER be committed 
 | File | Contains |
 |------|----------|
 | `backend/.env` | API keys, secret keys |
-| `backend/database/aura.db` | User session data |
 
 ## Environment Variables
 
